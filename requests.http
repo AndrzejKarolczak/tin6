@@ -1,0 +1,19 @@
+GET http://localhost:3000/multiply?x=1&y=2
+
+###
+GET http://localhost:3000/add?x=1&y=2
+
+###
+GET http://localhost:3000/subtract?x=1&y=2
+
+###
+GET http://localhost:3000/divide?x=1&y=0
+
+###
+GET http://localhost:3000/bla?x=1&y=0
+
+###
+GET http://localhost:3000/add?bla=1&y=0
+
+###
+GET http://localhost:3000/add?x=bla&y=0
